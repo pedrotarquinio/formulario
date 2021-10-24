@@ -45,4 +45,4 @@ Link das linguagens HTML, CSS e JavaScript:
 * https://www.w3schools.com/
 
 O link do formulário está hospedado:
-
+* https://formulariogama.netlify.app/
