@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+body {
+    background-color: #1d1d1d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formulario {
+    
+    width: 30%;
+    padding: 30px;
+    background: whitesmoke;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+}
+
+.formulario h2 {
+    background: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 500;    
+    padding: 20px;
+    margin: -30px -30px 10px -30px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #FF6701, #01359a);
+    border-image-slice: 1;
+    border-radius: 8px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario select {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 15px Arial, Helvetica, sans-serif;
+    height: 45px;
+    color: #1d1d1d;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.formulario input[type="text"]:focus,
+.formulario input[type="number"]:focus,
+.formulario select:focus {    
+    border-color: #FF6701;
+  }
+
+.formulario input::placeholder {
+    color: #1d1d1d;
+}
+
+.formulario input[type="button"] {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #FF6701, #01359a);
+}
+
+.formulario input[type="button"]:hover {
+    background: linear-gradient(-135deg, #FF6701, #01359a);
+}
+
+.msgAlerta {
+    font-size: 12px;
+    color: #f00;
+    margin-top: -10px;
+    position: absolute;
+}
+
