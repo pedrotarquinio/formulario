@@ -1,24 +1,48 @@
-# formulario
-Fomulário Simples de cadastro pessoal com alertas
+# Formulário de Cadastro Pessoal - Atração
 
+O objetivo do desafio individual é criar um formulário simples de cadastro pessoal com alertas de preenchimento obrigatório e envio de formulário ao submeter. Para esse desafio, foi utilizado as linguagens: HTML, CSS e JavaScript e como extra, foi implementado framework JQuery Mask.
+#
+O mesmo contém os campos (input) abaixo:
+- Nome
+- CPF
+- RG
+- Sexo
+- Endereço
+- Número
+- Bairro
+- Cidade
+- Estado
+- CEP
+- Telefone Fixo
+- Celular
+#
 
-Desafio Cadastro Pessoal - Atração
-Criar um formulario para registrar dados pessoais
+Os campos obrigatórios que contém asteriscos são:
+- Nome
+- CPF
+- Endereço 
+- Número Telefone Celular
 
-Front
-Domínio - Modelagem de Dados
- Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
-Regra de Negócio
-Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
-Requisitos
-Explorar os recursos de CSS
-Explorar os recursos do Javascript (Ex. Abrir um alert ao submeter o formulário)
-Hospedar o site! (Sugerimos o Netlify que é gratuito)
-Extras
-O campo Sexo pode ser do tipo select com com as opções M = Masculino, F = Feminino
-Estilização do site (CSS) básico
-Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas
-Orientaçãoes
-O desafio é individual
-Não usar frameworks de estilo como Bootstrap, Google Material e demais.
-Os entregáveis descritos acima são requisitos básicos para apresentação no dia da entrevista, ficando a critério do candidato, se quiser e estiver apto a melhorar o desafio de alguma forma, com os conhecimentos adquiridos durante a trilha de especialização.
+Ao enviar o formulário sem preencher os dados nos campos obrigatórios, os mesmos irão emitir alerta no navegador: 
+- alert("Nome não informado");
+- alert("CPF não informado");
+- alert("Endereço não informado");
+- alert("Número do celular não informado");
+
+Também foi implementado no CSS e JavaScript para ser exibido abaixo nos campos obrigatórios com fonte cor vermelha.
+
+Utilizado framework JQuery Mask para formatar os números dos campos:
+* CPF -  XXX.XXX.XXX-XX
+* RG - XX.XXX.XXX
+* CEP - XXXXX-XXX
+* Telefone fixo - (XX) XXXX-XXXX
+* Celular - (XX) X XXXX-XXXX
+
+Link do framework JQuery:
+* https://github.com/igorescobar/jQuery-Mask-Plugin
+
+Link das linguagens HTML, CSS e JavaScript:
+* https://www.w3schools.com/
+
+O link do formulário está hospedado:
+
