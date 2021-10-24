@@ -6,7 +6,7 @@ body {
 }
 
 .formulario {
-    min-width: 480px;
+    min-width: 470px;
     max-width: 35%;    
     padding: 30px;
     background: whitesmoke;
@@ -92,7 +92,7 @@ input::-webkit-inner-spin-button {
 }
 
 footer {    
-    min-width: 480px;
+    min-width: 470px;
     max-width: 41%;
     margin: auto;
     height: 84px;
