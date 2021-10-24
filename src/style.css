@@ -3,11 +3,12 @@
 body {
     background-color: #1d1d1d;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
 
 .formulario {
-    min-width: 470px;
-    max-width: 35%;    
+    min-width: 400px;
+    max-width: 540px;    
     padding: 30px;
     background: whitesmoke;
     margin: 50px auto;
@@ -93,7 +94,7 @@ input::-webkit-inner-spin-button {
 
 footer {    
     min-width: 470px;
-    max-width: 40%;
+    max-width: 570px;
     margin: auto;
     height: 84px;
     background-color: #bcc5d631;
